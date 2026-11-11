@@ -16,6 +16,8 @@ env:
 
   # token
   PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+  #Github API token
+  GH_TOKEN: ${{secrets.PUSH_TOKEN }}
 
   # not check connective
   SKIP_ALIVE_CHECK: ${{ vars.SKIP_ALIVE_CHECK }}
